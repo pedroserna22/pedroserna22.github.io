@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Linkeo a Boxicons para los iconos de contacto-->
+</head>
+<body>
+        <header class="header" id="encabezado"> <!-- Encbezado con varias secciones-->
+            <a href="#" class="logo">¡Mi Portafolio!</a>
+            <nav class="navegar">
+                <a href="#seccion1" >Inicio</a>
+                <a href="#seccion2" >Acerca de mí</a>
+                <a href="#seccion3" >Contacto</a>
+            </nav> 
+        </header>   
+    
+        <section class="inicio" id="seccion1"> <!-- Primera sección de la página con título,lista , párrafo e imagen dividido por divs, donde se definen clases e ids-->
+            <div class="contenido-inicio1">
+                <div class="contenido-texto1">
+                    <h1>Hola, soy Pedro Serna</h1>
+                    <h2>Estudiante de TI y Arquitectura</h2>
+                    <p>Mi nombre es Pedro Serna, actualmente me encuentro estudiando la Licenciatura en Tencologías de la Información en UTEC, Arquitectura en FADU y JAP de Ceibal. Si bien aún no tengo trabajo mi objetivo a corto plazo es entrar al ámbito laboral en TI, principalmente en Testing, Base de Datos o Desarrollo Web, me siento más atraído por Front-End, el diseño de interfaces o las pruebas de aplicativos.</p> 
+                    <h3>Conocimientos </h3>
+                    <div id="lista1">
+                        <ul>
+                          <li>Testing Funcional</li>
+                          <li>Base de Datos SQL</li>
+                          <li>JAVA</li>
+                          <li>JavaScript</li>
+                          <li>Html</li>
+                          <li>Css</li>
+                        </ul>
+                    </div>
+                    <img src="siluetahome.png" alt="Silueta1">
+                </div>
+            </div>
+        </section>
+
+        <section class="acerca-de" id="seccion2"><!-- Segunda sección con la misma estructura-->
+            <div class="contenido-inicio2">
+                <div class="contenido-texto2">
+                    <h2>Acerca de mí</h2>
+                    <p>Para dar una breve descripción sobre mí, me encantan los videojuegos, de ahí mi gusto y pasión por la tecnología, también el dibujo digital y croquis o previsualizaciones 3D, de ahí mi gusto por la Arquitectura, mi hobby usualmente suele ser jugar juegos, dibujar, tocar guitarra o salir con amigos. Me considero una persona sencilla que tiene muchas fortalezas a la hora de autogestionarse,trabajar en equipo y comunicarse.</p>
+                    <h3>Fortalezas</h3>
+                    <div id="lista2">
+                        <ul>
+                          <li>Buena organización y Gestión de tiempo</li>
+                          <li>Alta motivación y perseverancia</li>
+                          <li>Habilidades de comunicación efectiva</li>
+                          <li>Facilidad para trabajos colaborativos</li>
+                          <li>Pasión y entusiasmo por aprender</li>
+                        </ul>
+                    </div>
+                </div>
+            <img src="yo.png" alt="Silueta2">
+            </div>
+        </section>
+
+        <section class="escribe" id="seccion3"><!-- Tercera sección pero con un textarea para escribir y una imágen a la derecha-->
+            <div class="contenido-fin">
+              <div class="contenido-texto">
+                <h2>Contáctame</h2>
+                <textarea placeholder="Escribe tu consulta aquí..." rows="6"></textarea>
+              </div>
+              <img src="celfin.png" alt="Imagen de contacto">
+            </div>
+          </section>
+          
+
+        <section class="redes" id="seccion4"><!-- Última sección de redes con iconos que se linkea a la página boxicons-->
+        <h2>Redes</h2>
+            <div class="contacto-icon">
+                <a href="#" ><i class='bx bxl-whatsapp-square'></i></a>
+                <a href="#" ><i class='bx bxl-gmail' ></i></a>
+                <a href="#" ><i class='bx bxl-linkedin-square' ></i></a>  
+                <a href="#" ><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </section>
+</body>
+</html>

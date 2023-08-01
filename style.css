@@ -1,0 +1,189 @@
+/* Estilos globales donde se define la fuente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos del cuerpo de la página donde se define el color de letra y el fondo */
+body {
+  background: #0b0e15;
+  color: #ededed;
+}
+
+/* Estilos del encabezado, donde se define el color de fondo y el espaciado entre las cosas por medio de ID. */
+#encabezado {
+  position: relative;
+  width: 100%;
+  padding: 20px 10%;
+  background: #090c12;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Se define el logo que dice Mi Portafolio */
+.logo {
+  font-size: 25px;
+  color: orange;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Estilos de los enlaces de navegación que quita los hipervinculos y define la fuente de color blanco, por medio de clase */
+.navegar a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 30px;
+}
+/* Al pasar el mouse por arriba de un enlace queda naranja */
+.navegar a:hover {
+  color: orange;
+}
+
+/* Estilos de las secciones 1 y 2 por id*/
+#seccion1,
+#seccion2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 10%;
+}
+
+/* Estilos de los contenidos de las secciones 1 y 2 por id y clase*/
+#seccion1 .contenido-inicio1,
+#seccion2 .contenido-inicio2 {
+  max-width: 1200px;
+}
+
+/* Estilos de los títulos de la sección 1 */
+#seccion1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: yellowgreen;
+}
+
+/* Estilos de los subtítulos o h2 de todas las secciones */
+#seccion1 h2,
+#seccion2 h2, 
+#seccion3 h2{
+  font-size: 25px;
+  font-weight: 700;
+  color: yellowgreen;
+  padding: 10px 0%;
+}
+/* Estilos de los subtítulos o h3 de todas las secciones */
+#seccion1 h3,
+#seccion2 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: yellowgreen;
+  padding: 10px 0%;
+}
+/* Estilos de la lista 1 definida en la seccion1 */
+#lista1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Estilos de la lista 2 definida en la seccion2 */
+#lista2{
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  flex-direction: column;
+}
+
+/* Estilos de los párrafos de la sección 1 */
+#seccion1 p {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Estilos de la imagen de la sección 1 */
+#seccion1 .contenido-inicio1 img {
+  width: 300px;
+  margin-right: 40px;
+}
+
+
+/* Estilos del contenido de la sección 2 */
+#seccion2 .contenido-inicio2 {
+  display: flex;
+  padding: 10px 5%;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex: 1;
+  text-align: right;
+}
+
+
+/* Estilos de la imagen de la sección 2 */
+#seccion2 .contenido-inicio2 img {
+  width: 500px;
+  margin-left: 10px;
+}
+
+/* Estilos del contenido de la sección 3 */
+#seccion3 .contenido-fin {
+  display: flex;
+  justify-content: center;  
+}
+
+
+/* Estilos del textarea de la sección 3 */
+#seccion3 textarea {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  font-size: 15px;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+}
+
+/* Estilos de la imagen de la sección 3 */
+#seccion3 img {
+  width: 350px;
+  margin-left: 200px;
+  margin-right: 0px;
+}
+
+/* Estilos del contenido de la sección 4 */
+#seccion4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0%;
+}
+
+/* Estilos del título de la sección 4 */
+#seccion4 h2 {
+  margin-bottom: 15px;
+  color: orange;
+}
+
+/* Estilos de los iconos de contacto de la sección 4, así quedan centrados, de color naranja, con espaciado entre ellos */
+#seccion4 .contacto-icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  color: orange;
+  text-decoration: none;
+}
+
+/* Estilos adicionales para ajustar el espacio entre secciones */
+#seccion1 {
+  margin-bottom: -120px; /* Quedaba un espacio importante entre la sección 1 y la 2, por lo que usé esta linea para acomodarlo */
+}
